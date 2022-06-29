@@ -1,1 +1,27 @@
+body {
+    background-image: url("../img/background.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+.form-control {
+    text-align: center;
+    border: 1.5px solid black;
+    margin-top: 10px;
+}
+
+#button {
+    margin-top: 3px;
+    height: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded {
+    border-top: 5px solid #bbb;
+    border-radius: 4px;
+    width: 1000px;
+}

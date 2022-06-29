@@ -20,5 +20,5 @@ Route::get('/', function () {
 });
 
 
-Route::post('code', [MessageCode::class, 'code']);
+Route::post('encode', [MessageCode::class, 'code']);
 Route::post('decode', [MessageDecode::class, 'decode']);
